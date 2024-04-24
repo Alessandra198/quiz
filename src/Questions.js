@@ -11,15 +11,28 @@ export default function Questions() {
   }
   return (
     <div className="Questions">
-      <h6>Who are the two best friends of Harry Potter?</h6>
-      <select name="first" onChange={handleResponse}>
-        <option value="">Choose one</option>
-        <option value="wrong">Luna and Neville</option>
-        <option value="correct">Ron and Hermione</option>
-        <option value="wrong">Draco and Hermione</option>
-        <option value="wrong">Ron and Neville</option>
-        <option value="wrong">William and Kate</option>
-      </select>
+      <div className="first">
+        <h6>Who are the two best friends of Harry Potter?</h6>
+        <select name="first" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Luna and Neville</option>
+          <option value="correct">Ron and Hermione</option>
+          <option value="wrong">Draco and Hermione</option>
+          <option value="wrong">Ron and Neville</option>
+          <option value="wrong">William and Kate</option>
+        </select>
+      </div>
+      <div className="second">
+        <h6>Which house is Cedric Diggory?</h6>
+        <select name="second" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Slytherin</option>
+          <option value="wrong">Gryffindor</option>
+          <option value="wrong">Ravenclaw</option>
+          <option value="wrong">Serpeverde</option>
+          <option value="correct">Hufflepuff</option>
+        </select>
+      </div>
     </div>
   );
 }
