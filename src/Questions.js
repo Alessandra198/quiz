@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FirstQuestion() {
+export default function Questions() {
   function handleResponse(event) {
     event.preventDefault();
     if (event.target.value === "correct") {
@@ -10,7 +10,7 @@ export default function FirstQuestion() {
     }
   }
   return (
-    <div className="FirstQuestion">
+    <div className="Questions">
       <h6>Who are the two best friends of Harry Potter?</h6>
       <select name="first" onChange={handleResponse}>
         <option value="">Choose one</option>

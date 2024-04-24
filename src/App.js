@@ -1,4 +1,4 @@
-import FirstQuestion from "./FirstQuestion";
+import Questions from "./Questions";
 import "./App.css";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>Quiz by Rina</h1>
       <h2>Are you sure you know all the answer?</h2>
-      <FirstQuestion />
+      <Questions />
 
     </div>
   );
