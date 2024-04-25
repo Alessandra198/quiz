@@ -30,8 +30,22 @@ export default function Questions() {
           <option value="wrong">Slytherin</option>
           <option value="wrong">Gryffindor</option>
           <option value="wrong">Ravenclaw</option>
-          <option value="wrong">Serpeverde</option>
+          <option value="wrong">Wampus</option>
           <option value="correct">Hufflepuff</option>
+        </select>
+      </div>
+      <div className="quest third">
+        <h6>
+          What is the name of the centaur that rescues Harry in the Forbidden
+          Forest?
+        </h6>
+        <select name="third" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Magorian</option>
+          <option value="wrong">Ronan</option>
+          <option value="correct">Firenze</option>
+          <option value="wrong">Bane</option>
+          <option value="wrong">Hagrid</option>
         </select>
       </div>
     </div>
