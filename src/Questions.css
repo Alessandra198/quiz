@@ -1,15 +1,24 @@
 .Questions h6 {
-    margin: 5px 0;
-    font-size: 18px;
+  margin: 5px 0;
+  font-size: 18px;
 }
 
 .Questions .quest {
-    padding: 8px;
-    font-size: 18px;
+  padding: 8px;
+  font-size: 18px;
 }
 
 .Questions .quest select {
-    padding: 5px;
-    font-size: 16px;
-    border-radius: 7px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 7px;
+  background-color: #45171d;
+  border: 1px solid #45171d;
+  color: rgba(166, 113, 51, 1);
+}
+
+.Questions .quest select:hover {
+  background-color: #283739;
+  border: 1px solid rgba(166, 113, 51, 1);
+  color: rgba(166, 113, 51, 1);
 }
