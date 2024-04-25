@@ -1,4 +1,5 @@
 import React from "react";
+import "./Questions.css";
 
 export default function Questions() {
   function handleResponse(event) {
@@ -11,7 +12,7 @@ export default function Questions() {
   }
   return (
     <div className="Questions">
-      <div className="first">
+      <div className="quest first">
         <h6>Who are the two best friends of Harry Potter?</h6>
         <select name="first" onChange={handleResponse}>
           <option value="">Choose one answer</option>
@@ -22,7 +23,7 @@ export default function Questions() {
           <option value="wrong">William and Kate</option>
         </select>
       </div>
-      <div className="second">
+      <div className="quest second">
         <h6>Which house is Cedric Diggory?</h6>
         <select name="second" onChange={handleResponse}>
           <option value="">Choose one answer</option>

@@ -1,0 +1,15 @@
+.Questions h6 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.Questions .quest {
+    padding: 8px;
+    font-size: 18px;
+}
+
+.Questions .quest select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 7px;
+}
