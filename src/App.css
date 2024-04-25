@@ -1,3 +1,8 @@
+.App {
+  color: rgba(166, 113, 51, 1);
+  font-family: "Cormorant Garamond", serif;
+}
+
 .App h1 {
   text-align: center;
   font-size: 48px;
@@ -7,4 +12,3 @@
 .App h2 {
   text-align: center;
 }
-
