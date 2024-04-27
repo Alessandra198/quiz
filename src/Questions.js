@@ -92,9 +92,9 @@ export default function Questions() {
           <option value="correct">Fat Lady</option>
         </select>
       </div>
-      <div className="quest seventh">
+      <div className="quest eighth">
         <h6>How many Weasley siblings there are?</h6>
-        <select name="seventh" onChange={handleResponse}>
+        <select name="eighth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">5</option>
           <option value="wrong">8</option>
