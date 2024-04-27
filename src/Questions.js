@@ -13,7 +13,7 @@ export default function Questions() {
   return (
     <div className="Questions">
       <div className="quest first">
-        <h6>Who are the two best friends of Harry Potter?</h6>
+        <h6>1. Who are the two best friends of Harry Potter?</h6>
         <select name="first" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Luna and Neville</option>
@@ -24,7 +24,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest second">
-        <h6>Which house is Cedric Diggory?</h6>
+        <h6>2. Which house is Cedric Diggory?</h6>
         <select name="second" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Slytherin</option>
@@ -36,7 +36,7 @@ export default function Questions() {
       </div>
       <div className="quest third">
         <h6>
-          What is the name of the centaur that rescues Harry in the Forbidden
+          3. What is the name of the centaur that rescues Harry in the Forbidden
           Forest?
         </h6>
         <select name="third" onChange={handleResponse}>
@@ -49,7 +49,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest fourth">
-        <h6>Which of these is not an Horcrux of the Dark Lord?</h6>
+        <h6>4. Which of these is not an Horcrux of the Dark Lord?</h6>
         <select name="fourth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="correct">Scabbers</option>
@@ -60,7 +60,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest fifth">
-        <h6>What is the real name of Voldemort?</h6>
+        <h6>5. What is the real name of Voldemort?</h6>
         <select name="fifth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Tom Richard Riddle</option>
@@ -71,7 +71,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest sixth">
-        <h6>Which one of these is an Unforgivable Curses?</h6>
+        <h6>6. Which one of these is an Unforgivable Curses?</h6>
         <select name="sixth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="correct">Cruciatus</option>
@@ -82,7 +82,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest seventh">
-        <h6>Who guards the entrance to the Gryffindor common room?</h6>
+        <h6>7. Who guards the entrance to the Gryffindor common room?</h6>
         <select name="seventh" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Godric Gryffindor</option>
@@ -93,7 +93,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest eighth">
-        <h6>How many Weasley siblings there are?</h6>
+        <h6>8. How many Weasley siblings there are?</h6>
         <select name="eighth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">5</option>
@@ -104,7 +104,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest ninth">
-        <h6>Who gave Harry the Invisibility Cloak?</h6>
+        <h6>9. Who gave Harry the Invisibility Cloak?</h6>
         <select name="ninth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Hedwig</option>
@@ -115,7 +115,7 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest tenth">
-        <h6>What is the name of Fred and George's shop?</h6>
+        <h6>10. What is the name of Fred and George's shop?</h6>
         <select name="tenth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
           <option value="wrong">Weasleys' Shop</option>
