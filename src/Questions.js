@@ -49,17 +49,14 @@ export default function Questions() {
         </select>
       </div>
       <div className="quest fourth">
-        <h6>
-          What is the name of the centaur that rescues Harry in the Forbidden
-          Forest?
-        </h6>
+        <h6>Which of these is not an Horcrux of the Dark Lord?</h6>
         <select name="fourth" onChange={handleResponse}>
           <option value="">Choose one answer</option>
-          <option value="wrong">Magorian</option>
-          <option value="wrong">Ronan</option>
-          <option value="correct">Firenze</option>
-          <option value="wrong">Bane</option>
-          <option value="wrong">Hagrid</option>
+          <option value="correct">Scabbers</option>
+          <option value="wrong">Slytherin's Locket</option>
+          <option value="wrong">Harry Potter</option>
+          <option value="wrong">Nagini</option>
+          <option value="wrong">Ravenclaw's Diadem</option>
         </select>
       </div>
       <div className="quest fifth">
