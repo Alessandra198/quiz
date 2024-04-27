@@ -103,6 +103,17 @@ export default function Questions() {
           <option value="wrong">12</option>
         </select>
       </div>
+      <div className="quest ninth">
+        <h6>Who gave Harry the Invisibility Cloak?</h6>
+        <select name="ninth" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Hedwig</option>
+          <option value="correct">Silente</option>
+          <option value="wrong">Sirius Black</option>
+          <option value="wrong">Lord Voldemort</option>
+          <option value="wrong">Remus Lupin</option>
+        </select>
+      </div>
     </div>
   );
 }
