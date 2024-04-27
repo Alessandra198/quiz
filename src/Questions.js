@@ -48,6 +48,31 @@ export default function Questions() {
           <option value="wrong">Hagrid</option>
         </select>
       </div>
+      <div className="quest fourth">
+        <h6>
+          What is the name of the centaur that rescues Harry in the Forbidden
+          Forest?
+        </h6>
+        <select name="fourth" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Magorian</option>
+          <option value="wrong">Ronan</option>
+          <option value="correct">Firenze</option>
+          <option value="wrong">Bane</option>
+          <option value="wrong">Hagrid</option>
+        </select>
+      </div>
+      <div className="quest fifth">
+        <h6>What is the real name of Voldemort?</h6>
+        <select name="fifth" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Tom Richard Riddle</option>
+          <option value="correct">Tom Marvolo Riddle</option>
+          <option value="wrong">Tom Marvolo Voldemort</option>
+          <option value="wrong">Richard Marvolo Riddle</option>
+          <option value="wrong">Anakin Skywalker</option>
+        </select>
+      </div>
     </div>
   );
 }
