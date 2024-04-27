@@ -114,6 +114,17 @@ export default function Questions() {
           <option value="wrong">Remus Lupin</option>
         </select>
       </div>
+      <div className="quest tenth">
+        <h6>What is the name of Fred and George's shop?</h6>
+        <select name="tenth" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Weasleys' Shop</option>
+          <option value="correct">Weasleys' Wizard Wheezes</option>
+          <option value="wrong">Wizard Wheezes</option>
+          <option value="wrong">Weasleys brothers</option>
+          <option value="wrong">Weasleys' brothers shop</option>
+        </select>
+      </div>
     </div>
   );
 }
