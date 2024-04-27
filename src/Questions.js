@@ -81,6 +81,17 @@ export default function Questions() {
           <option value="wrong">Bidibi bodibi bu</option>
         </select>
       </div>
+      <div className="quest seventh">
+        <h6>Who guards the entrance to the Gryffindor common room?</h6>
+        <select name="seventh" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="wrong">Godric Gryffindor</option>
+          <option value="wrong">Rowena Ravenclaw</option>
+          <option value="wrong">Hagrid</option>
+          <option value="wrong">Fluffy</option>
+          <option value="correct">Fat Lady</option>
+        </select>
+      </div>
     </div>
   );
 }
