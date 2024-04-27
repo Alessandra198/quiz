@@ -70,6 +70,17 @@ export default function Questions() {
           <option value="wrong">Anakin Skywalker</option>
         </select>
       </div>
+      <div className="quest sixth">
+        <h6>Which one of these is an Unforgivable Curses?</h6>
+        <select name="sixth" onChange={handleResponse}>
+          <option value="">Choose one answer</option>
+          <option value="correct">Cruciatus</option>
+          <option value="wrong">Legilimens</option>
+          <option value="wrong">Experliarmus</option>
+          <option value="wrong">Aguamenti</option>
+          <option value="wrong">Bidibi bodibi bu</option>
+        </select>
+      </div>
     </div>
   );
 }
