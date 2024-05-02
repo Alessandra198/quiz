@@ -135,7 +135,7 @@ export default function Questions() {
           <option value="wrong">Weasleys' brothers shop</option>
         </select>
       </div>
-      <button onClick={handleResults}>Sent</button>
+      <button onClick={handleResults}>Send</button>
       <Results check={check} bool={bool} />
     </div>
   );
