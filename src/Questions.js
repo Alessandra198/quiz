@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Questions.css";
+import Results from "./Results";
 
 export default function Questions() {
+  let [bool, setBool] = useState(false);
+  let [check, setCheck] = useState(null);
   function handleResponse(event) {
     event.preventDefault();
-    if (event.target.value === "correct") {
-      alert("Yayy you're right!");
-    } else if (event.target.value === "wrong") {
-      alert("Opss, try again!");
+    if (bool) {
+      setCheck(null);
+      setBool(false);
     }
+    if (event.target.value === "correct") {
+      setCheck(check + 1);
+    }
+  }
+
+  function handleResults() {
+    setBool(true);
+    console.log(check);
   }
   return (
     <div className="Questions">
@@ -125,6 +135,8 @@ export default function Questions() {
           <option value="wrong">Weasleys' brothers shop</option>
         </select>
       </div>
+      <button onClick={handleResults}>Sent</button>
+      <Results check={check} bool={bool} />
     </div>
   );
 }
