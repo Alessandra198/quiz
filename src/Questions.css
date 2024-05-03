@@ -45,3 +45,7 @@
   background-color: rgba(41, 36, 66, 1);
   color: rgba(166, 113, 51, 1);
 }
+
+.Questions h3 {
+  text-align: center;
+}
